@@ -1,0 +1,34 @@
+.blue {
+  color: $logo-blue;
+}
+.red {
+  color: $logo-red;
+}
+.yellow {
+  color: $logo-yellow;
+}
+.green {
+  color: $logo-green;
+}
+
+.exclamatory {
+  display: inline-block;
+  font-size: 2.5rem;
+  transform: rotate(12deg);
+  @include mq(768px) {
+    font-size: 4rem;
+  }
+}
+
+.offscreen {
+  position: absolute;
+  left: -1000000px;
+}
+
+.none {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+}
